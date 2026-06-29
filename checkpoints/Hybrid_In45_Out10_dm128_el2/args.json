@@ -1,0 +1,30 @@
+{
+    "root_path": "./",
+    "data_path": "dataset/AC4.csv",
+    "in_len": 45,
+    "out_len": 10,
+    "seg_len": 5,
+    "data_dim": 20,
+    "c_out": 6,
+    "d_model": 128,
+    "d_ff": 256,
+    "n_heads": 4,
+    "e_layers": 2,
+    "win_size": 2,
+    "factor": 10,
+    "dropout": 0.2,
+    "batch_size": 32,
+    "train_epochs": 20,
+    "patience": 4,
+    "learning_rate": 0.0005,
+    "scale": true,
+    "use_gpu": true,
+    "gpu": 0,
+    "checkpoints": "./checkpoints/",
+    "data_split": [
+        0.7,
+        0.1,
+        0.2
+    ],
+    "baseline": false
+}
