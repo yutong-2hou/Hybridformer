@@ -1,0 +1,6 @@
+# Direct dependencies for the documented Python 3.12 environment.
+# NumPy 2 removes np.Inf, which the current EarlyStopping still uses.
+numpy==1.26.4
+pandas==2.2.3
+torch==2.5.1
+einops==0.8.0
